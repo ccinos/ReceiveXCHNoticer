@@ -34,6 +34,11 @@
       this.lbl_balance = new System.Windows.Forms.Label();
       this.notifyIcon1 = new System.Windows.Forms.NotifyIcon(this.components);
       this.lbl_msg = new System.Windows.Forms.Label();
+      this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+      this.tsmShow = new System.Windows.Forms.ToolStripMenuItem();
+      this.tsmExit = new System.Windows.Forms.ToolStripMenuItem();
+      this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+      this.contextMenuStrip1.SuspendLayout();
       this.SuspendLayout();
       // 
       // btnConfirmModify
@@ -101,6 +106,7 @@
       // 
       // notifyIcon1
       // 
+      this.notifyIcon1.ContextMenuStrip = this.contextMenuStrip1;
       this.notifyIcon1.Icon = ((System.Drawing.Icon)(resources.GetObject("notifyIcon1.Icon")));
       this.notifyIcon1.Visible = true;
       this.notifyIcon1.MouseDoubleClick += new System.Windows.Forms.MouseEventHandler(this.notifyIcon1_MouseDoubleClick);
@@ -111,6 +117,33 @@
       this.lbl_msg.Name = "lbl_msg";
       this.lbl_msg.Size = new System.Drawing.Size(314, 30);
       this.lbl_msg.TabIndex = 8;
+      // 
+      // contextMenuStrip1
+      // 
+      this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.tsmShow,
+            this.toolStripSeparator1,
+            this.tsmExit});
+      this.contextMenuStrip1.Name = "contextMenuStrip1";
+      this.contextMenuStrip1.Size = new System.Drawing.Size(181, 76);
+      this.contextMenuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.contextMenuStrip1_ItemClicked);
+      // 
+      // tsmShow
+      // 
+      this.tsmShow.Name = "tsmShow";
+      this.tsmShow.Size = new System.Drawing.Size(180, 22);
+      this.tsmShow.Text = "Show";
+      // 
+      // tsmExit
+      // 
+      this.tsmExit.Name = "tsmExit";
+      this.tsmExit.Size = new System.Drawing.Size(180, 22);
+      this.tsmExit.Text = "Exit";
+      // 
+      // toolStripSeparator1
+      // 
+      this.toolStripSeparator1.Name = "toolStripSeparator1";
+      this.toolStripSeparator1.Size = new System.Drawing.Size(177, 6);
       // 
       // Form1
       // 
@@ -134,6 +167,7 @@
       this.Text = "XCH Receive Noticer";
       this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Form1_FormClosing);
       this.SizeChanged += new System.EventHandler(this.Form1_SizeChanged);
+      this.contextMenuStrip1.ResumeLayout(false);
       this.ResumeLayout(false);
       this.PerformLayout();
 
@@ -150,6 +184,10 @@
     private System.Windows.Forms.Label lbl_balance;
     private System.Windows.Forms.NotifyIcon notifyIcon1;
     private System.Windows.Forms.Label lbl_msg;
+    private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+    private System.Windows.Forms.ToolStripMenuItem tsmShow;
+    private System.Windows.Forms.ToolStripSeparator toolStripSeparator1;
+    private System.Windows.Forms.ToolStripMenuItem tsmExit;
   }
 }
 

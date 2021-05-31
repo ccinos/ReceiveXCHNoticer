@@ -7,3 +7,4 @@ C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\Recei
 C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\ReceiveXCHNoticer.csproj.CoreCompileInputs.cache
 C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\ReceiveXCHNoticer.exe
 C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\ReceiveXCHNoticer.pdb
+C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\ReceiveXCHNoticer.csprojAssemblyReference.cache

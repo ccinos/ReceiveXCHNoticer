@@ -50,6 +50,10 @@ namespace ReceiveXCHNoticer {
     }
 
     private void notifyIcon1_MouseDoubleClick(object sender, MouseEventArgs e) {
+      show();
+    }
+
+    private void show() {
       this.ShowInTaskbar = true;
       this.Visible = true;
       this.WindowState = FormWindowState.Normal;
@@ -118,7 +122,8 @@ namespace ReceiveXCHNoticer {
       } else {
         lbl_received.Text = convertXCH(xch.grossBalance);
         lbl_balance.Text = convertXCH(xch.netBalance);
-        notifyIcon1.Text = "  Coins received:" + lbl_balance.Text + "\nCoins remaining:" + lbl_received.Text;
+        notifyIcon1.Text = "Updated at "+ DateTime.Now.ToString("HH:mm:ss")+ "\nXCH "
+          + lbl_balance.Text +"/" + lbl_received.Text;
       }
     }
 
@@ -136,6 +141,15 @@ namespace ReceiveXCHNoticer {
 
     private void Form1_FormClosing(object sender, FormClosingEventArgs e) {
       timer.Dispose();
+    }
+
+    private void contextMenuStrip1_ItemClicked(object sender, ToolStripItemClickedEventArgs e) {
+      if (e.ClickedItem == tsmShow) {
+        show();
+      }
+      if (e.ClickedItem == tsmExit) {
+        this.Close();
+      }
     }
   }
 }
