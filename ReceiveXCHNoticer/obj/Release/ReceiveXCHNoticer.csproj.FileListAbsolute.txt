@@ -1,0 +1,9 @@
+C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\bin\Release\ReceiveXCHNoticer.exe.config
+C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\bin\Release\ReceiveXCHNoticer.exe
+C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\bin\Release\ReceiveXCHNoticer.pdb
+C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\ReceiveXCHNoticer.Form1.resources
+C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\ReceiveXCHNoticer.Properties.Resources.resources
+C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\ReceiveXCHNoticer.csproj.GenerateResource.cache
+C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\ReceiveXCHNoticer.csproj.CoreCompileInputs.cache
+C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\ReceiveXCHNoticer.exe
+C:\Users\syl_\source\repos\ReceiveXCHNoticer\ReceiveXCHNoticer\obj\Release\ReceiveXCHNoticer.pdb
